@@ -1,0 +1,167 @@
+<script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
+<style> .notify-render .hope-close-button {
+    display:none
+}
+.hope-ui-light {
+    background-image:url("http://10.1.1.73:8199/dhyyl.jpeg") !important;
+background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center
+}
+.hope-ui-dark {
+    background-image:url("http://10.1.1.73:8199/dhyyty.jpeg") !important;
+    @media (max-aspect-ratio:1) {
+        background-image:url("http://10.1.1.73:8199/dhyyv.jpeg") !important;
+    }
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center
+}
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
+    backdrop-filter: blur(1px);
+    background-color:rgba(255,255,255,0.7) !important
+}
+.obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
+    backdrop-filter: blur(1px);
+    background-color:rgb(0 0 0 / 50%) !important
+}
+.hope-c-PJLV.hope-c-PJLV-ikSuVsl-css {
+    backdrop-filter: blur(1px);
+    background-color:rgba(255,255,255,0.5) !important
+}
+.hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
+    backdrop-filter: blur(1px);
+    background-color:rgb(0 0 0 / 50%) !important
+}
+.hope-ui-light .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+    backdrop-filter: blur(1px);
+    background-color:rgba(255,255,255,0.5) !important
+}
+.hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+    backdrop-filter: blur(1px);
+    background-color:rgb(0 0 0 / 50%) !important
+}
+.hope-ui-light .hope-c-PJLV-ijgzmFG-css {
+    backdrop-filter: blur(1px);
+    background-color:rgba(255,255,255,0.5) !important
+}
+.hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
+    backdrop-filter: blur(1px);
+    background-color:rgb(0 0 0 / 50%) !important
+}
+.hope-ui-light pre {
+    background-color:rgba(255,255,255,0.1) !important
+}
+.hope-ui-dark pre {
+    background-color:rgba(255,255,255,0) !important
+}
+.hope-ui-light .hope-c-PJLV-ieGWMbI-css {
+    backdrop-filter: blur(1px);
+    background:rgba(255,255,255,0.5) !important
+}
+.hope-ui-dark .hope-c-PJLV-ieGWMbI-css {
+    backdrop-filter: blur(1px);
+    background-color:rgb(0 0 0 / 50%) !important
+}
+.hope-c-PJLV-ihVEsOa-css {
+    backdrop-filter: blur(1px);
+    background:rgba(255,255,255,0.5) !important
+}
+.hope-ui-dark .hope-c-PJLV-ihVEsOa-css {
+    backdrop-filter: blur(1px);
+    background-color:rgb(0 0 0 / 50%) !important
+}
+#root > .header {
+    background:linear-gradient(180deg,rgba(255,255,255,0.3),rgba(255,255,255,0))
+}
+#root > .footer {
+    background:linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0))
+}
+.hope-ui-light .body > .nav {
+    background-color:rgba(255,255,255,0.7);
+    border-radius:var(--hope-radii-xl)
+}
+.hope-ui-dark .body > .nav {
+    background-color:rgb(0 0 0 / 50%);
+    border-radius:var(--hope-radii-xl)
+}
+.body > .nav::after {
+    display:none
+}
+dibu {
+    border-top:0px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin:0px;
+    padding:0px
+}
+.App {
+    min-height:85vh
+}
+.table {
+    margin:auto
+}
+#canvas-basic {
+    position:fixed;
+    display:block;
+    width:100%;
+    height:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:-999
+}
+.hope-image {
+    filter:drop-shadow(2px 4px 8px rgb(255,255,255))
+}
+    button#hope-menu-daynight-switch-trigger {
+    position: fixed;
+    bottom: 7.5vh;
+    size: var(--hope-sizes-8);
+}
+</style>
+
+<script>
+    function daynightswitch() {
+        if (document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-icHSmvX-css")[0]) {
+            document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-icHSmvX-css")[0].$$click();
+
+        } else {
+            if (document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[1]) {
+                if (document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[7]) {
+                    document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[7].$$click();
+                } else { document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[1].$$click(); }
+                document.getElementsByClassName("hope-drawer__content-container hope-c-gLUHnt hope-c-fxrEBZ hope-c-fxrEBZ-llmmsr-placement-right hope-c-PJLV hope-c-PJLV-ijhzIfm-css")[0].style.display = 'None';
+                document.getElementsByClassName("hope-drawer__overlay hope-c-ctSAUo hope-c-PJLV hope-c-PJLV-ijhzIfm-css")[0].style.display = 'None';
+                document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-icHSmvX-css")[0].$$click();
+                document.getElementsByClassName("hope-modal__close-button hope-c-gYVOHl hope-close-button hope-c-iNeqtt hope-c-iNeqtt-feqEsd-size-md hope-c-PJLV hope-c-PJLV-ijhzIfm-css")[0].click();
+            } else {
+                document.getElementsByClassName("toolbar-toggle hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[0].$$click();
+                if (document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[9]) {
+                    document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[9].$$click();
+                } else { document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[1].$$click(); }
+                document.getElementsByClassName("hope-drawer__content-container hope-c-gLUHnt hope-c-fxrEBZ hope-c-fxrEBZ-llmmsr-placement-right hope-c-PJLV hope-c-PJLV-ijhzIfm-css")[0].style.display = 'None';
+                document.getElementsByClassName("hope-drawer__overlay hope-c-ctSAUo hope-c-PJLV hope-c-PJLV-ijhzIfm-css")[0].style.display = 'None';
+                document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-icHSmvX-css")[0].$$click();
+                document.getElementsByClassName("hope-modal__close-button hope-c-gYVOHl hope-close-button hope-c-iNeqtt hope-c-iNeqtt-feqEsd-size-md hope-c-PJLV hope-c-PJLV-ijhzIfm-css")[0].click();
+                if (document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[8]) {
+                    document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[8].$$click();
+                } else { document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[2].$$click(); }
+            }
+        }
+    }
+    document.write(`<button
+    class="hope-menu__trigger hope-c-bvjbhC hope-c-PJLV hope-c-PJLV-ieTGfmR-css hope-icon-button hope-button hope-c-ivMHWx hope-c-ivMHWx-kcPQpq-variant-subtle hope-c-ivMHWx-cEknLI-size-lg hope-c-ivMHWx-dvmlqS-cv hope-c-ivMHWx-hZistB-cv hope-c-PJLV hope-c-PJLV-iikaotv-css"
+    type="button" role="button" id="hope-menu-daynight-switch-trigger" aria-label="switch layout"><svg t="1733225100292"
+        class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4397"
+        xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em">
+        <path
+            d="M512 0c282.7776 0 512 229.2224 512 512s-229.2224 512-512 512S0 794.7776 0 512 229.2224 0 512 0z m0 51.2a460.8 460.8 0 0 0-13.568 921.3952L512 972.8v-256a204.8 204.8 0 1 0 0-409.6V51.2z m0 256v409.6a204.8 204.8 0 1 1 0-409.6z"
+            fill="currentColor" p-id="4398"></path>
+    </svg></button>`)
+    document.getElementById("hope-menu-daynight-switch-trigger").addEventListener("click", daynightswitch);
+</script>
