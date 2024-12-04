@@ -3,16 +3,19 @@
     display:none
 }
 .hope-ui-light {
-    background-image:url("http://10.1.1.73:8199/dhyyl.jpeg") !important;
-background-repeat:no-repeat;
+    background-image:url("白天图片横屏|Daythemehorizontal.png") !important;
+    @media (max-aspect-ratio:1) {
+        background-image:url("白天图片竖屏|Daythemevertical.png") !important;
+    }
+    background-repeat:no-repeat;
     background-size:cover;
     background-attachment:fixed;
     background-position-x:center
 }
 .hope-ui-dark {
-    background-image:url("http://10.1.1.73:8199/dhyyty.jpeg") !important;
+     background-image:url("黑夜图片横屏|Nightthemehorizontal.png") !important;
     @media (max-aspect-ratio:1) {
-        background-image:url("http://10.1.1.73:8199/dhyyv.jpeg") !important;
+        background-image:url("黑夜图片竖屏|Nightthemevertical.png") !important;
     }
     background-repeat:no-repeat;
     background-size:cover;
@@ -124,7 +127,7 @@ dibu {
     size: var(--hope-sizes-8);
 }
 </style>
-
+<!-- 日夜主题切换按钮 | Day/Night Switch Button -->
 <script>
     function daynightswitch() {
         if (document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-icHSmvX-css")[0]) {
