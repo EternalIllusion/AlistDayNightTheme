@@ -38,6 +38,7 @@ Day/Night switch button is available for **standalone** usage.
                 } else { document.getElementsByClassName("hope-icon hope-c-XNyZK hope-c-PJLV hope-c-PJLV-ifkxHPo-css")[2].$$click(); }
             }
         }
+        location.reload();
     }
     document.write(`<button
     class="hope-menu__trigger hope-c-bvjbhC hope-c-PJLV hope-c-PJLV-ieTGfmR-css hope-icon-button hope-button hope-c-ivMHWx hope-c-ivMHWx-kcPQpq-variant-subtle hope-c-ivMHWx-cEknLI-size-lg hope-c-ivMHWx-dvmlqS-cv hope-c-ivMHWx-hZistB-cv hope-c-PJLV hope-c-PJLV-iikaotv-css"
