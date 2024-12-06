@@ -1,6 +1,6 @@
 ## Alist白天/黑夜主题模板 | Alist Day/Night Theme Template
 
-说明：本主题为带有**日夜切换**的主题模板，适用于**Alist>=3.31**。
+说明：本主题为带有 **日夜切换** 的主题模板，适用于 **Alist>=3.31** 。
 
 Info: This is an Alist Nay/Night Theme Template for **Alist>=3.31** .
 
@@ -10,7 +10,7 @@ Info: This is an Alist Nay/Night Theme Template for **Alist>=3.31** .
 
 Open alist-header.html and edit it, make sure .png links in thr quote replaced with your own link to the image.
 
-```html
+```css
 .hope-ui-light {
     background-image:url("白天图片横屏|Daythemehorizontal.png") !important;
     @media (max-aspect-ratio:1) {
