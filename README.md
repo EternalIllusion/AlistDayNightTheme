@@ -1,10 +1,47 @@
 ## Alist白天/黑夜主题模板 | Alist Day/Night Theme Template
 
-说明：本主题为带有日夜切换的主题模板，适用于Alist>=3.31。
+说明：本主题为带有**日夜切换**的主题模板，适用于**Alist>=3.31**。
 
-Info: This is an Alist Nay/Night Theme Template for Alist>=3.31.
+Info: This is an Alist Nay/Night Theme Template for **Alist>=3.31** .
 
-日夜切换按钮可以**单独引用**。
+## 使用方法 | Usage
+
+打开alist-header.html,编辑以下内容，将四个引号内的.png换成你的图片连接。
+
+Open alist-header.html and edit it, make sure .png links in thr quote replaced with your own link to the image.
+
+```html
+.hope-ui-light {
+    background-image:url("白天图片横屏|Daythemehorizontal.png") !important;
+    @media (max-aspect-ratio:1) {
+        background-image:url("白天图片竖屏|Daythemevertical.png") !important;
+    }
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center
+}
+.hope-ui-dark {
+     background-image:url("黑夜图片横屏|Nightthemehorizontal.png") !important;
+    @media (max-aspect-ratio:1) {
+        background-image:url("黑夜图片竖屏|Nightthemevertical.png") !important;
+    }
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position-x:center
+}
+```
+
+然后打开Alist，登录管理员账号并进入管理页面。依次点击：` 三 > 设置 > 全局 ` 将修改后内容全选，复制粘贴到 **自定义头部** 中。
+
+Then open Alist, enter manage page and click by the following order: `三 > Settings > Global` .Now select thr whole modified file content and copy and paste it into  **Customize head** .
+
+点击 **保存** ，大功告成！
+
+Click on the  **Save**  button and everything is done!
+
+日夜切换按钮可以**单独引用** 。
 
 Day/Night switch button is available for **standalone** usage.
 
@@ -52,10 +89,3 @@ Day/Night switch button is available for **standalone** usage.
     document.getElementById("hope-menu-daynight-switch-trigger").addEventListener("click", daynightswitch);
 </script>
 ```
-
-### 应用示例 | Application Examples
-丹恒饮月 | Imbibitor Lunae
-
-*背景图片暂未获得授权，请勿用于其他站点*
-
-*BG IMG not authorized，do not repost*

@@ -79,7 +79,12 @@
 #root > .header {
     background:linear-gradient(180deg,rgba(255,255,255,0.3),rgba(255,255,255,0))
 }
-#root > .footer {
+.footerd {
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     background:linear-gradient(0deg,rgba(255,255,255,0.3),rgba(255,255,255,0))
 }
 .hope-ui-light .body > .nav {
@@ -129,6 +134,9 @@ button#hope-menu-daynight-switch-trigger {
     size: var(--hope-sizes-8);
 }
 </style>
+<script>
+    document.write(`<div class="footerd"></div>`);
+</script>
 <!-- 日夜主题切换按钮 | Day/Night Switch Button -->
 <script>
     function daynightswitch() {
